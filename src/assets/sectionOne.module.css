@@ -1,0 +1,7 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.pinterest.com/pin/1152780835852182622/");
+    background-size: cover;              
+    background-repeat: repeat;   
+ } 
