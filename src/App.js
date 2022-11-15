@@ -14,8 +14,8 @@ function App () {
       <Navbar />
       <Routes>
         <Route index element={ <Homepage />}/>
-        <Route path= "/Contact" element={ <Contactpage />}/>
-        <Route path= "/Blogs" element={ <Blogpage />}/>
+        <Route path= "/contacts" element={ <Contactpage />}/>
+        <Route path= "/blogs" element={ <Blogpage />}/>
       </Routes>
       < Footer/>
     </Router>
