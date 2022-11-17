@@ -1,7 +1,41 @@
 .container {
-    width: 100%;
     height: 100vh;
-    background-image: url("https://www.pinterest.com/pin/1152780835852182622/");
-    background-size: cover;              
-    background-repeat: repeat;   
- } 
+    display: flex;
+    align-items: center;
+    background-image: url("../photos/photo.svg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+.innerContainer {
+    width: 100vw;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.row{
+    display: flex;
+    max-width: 390px;
+    justify-content: space-between;
+}
+.button {
+    height: 38px;
+    background-color: #0bbef2;
+    color: white;
+    border: none;
+}
+
+
+h1{
+    font: 64px;
+}
+h2{
+    font: 32px;
+}
+input { 
+    padding-left: 10px;
+    height: 38px;
+    width: 240px;
+    border: 1px solid black;
+    box-sizing: border-box;
+} 
