@@ -8,34 +8,39 @@
 }
 .innerContainer {
     width: 100vw;
-    max-width: 500px;
+    max-width: 700px;
     display: flex;
     flex-direction: column;
     color: white;
+    gap: 14px;
 }
 .row{
     display: flex;
-    max-width: 390px;
-    justify-content: space-between;
+    max-width: 700px;
+    gap: 40px;
+    margin-top: 24px;
 }
 .button {
-    height: 38px;
+    height: 48px;
     background-color: #0bbef2;
     color: white;
     border: none;
 }
-
-
-h1{
-    font: 64px;
+p.title {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 72px;
 }
-h2{
-    font: 32px;
+p.description {
+    font-size: 28px;
+    max-width: 500px;
+    line-height: 34px;
+    font-weight: 400;
 }
 input { 
     padding-left: 10px;
-    height: 38px;
-    width: 240px;
+    height: 48px;
+    width: 400px;
     border: 1px solid black;
     box-sizing: border-box;
 } 

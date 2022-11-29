@@ -6,13 +6,13 @@ export const SectionOne = () => {
         <div className={styles.container}>
             <Container>
                 <div className={styles.innerContainer}>
-                    <h1>
-                        Instant collaboration for remote teams
-                    </h1>
-                    <h2>
+                    <p className={styles.title}>
+                        Instant collaborations for remote teams
+                    </p>
+                    <p className={styles.description}>
                         All in one for your remote team chats,
                         collaborations and track projects
-                    </h2>
+                    </p>
                     <div className={styles.row}>
                         <input placeholder='Email'></input>
                         <button className={styles.button}>Get early access</button>
